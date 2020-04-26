@@ -10,7 +10,7 @@ typedef struct _RTL_RELATIVE_NAME_U {
     UNICODE_STRING      RelativeName;
     HANDLE              ContainingDirectory;
     PRTLP_CURDIR_REF    CurDirRef;
-} RTL_RELATIVE_NAME_U, * PRTL_RELATIVE_NAME_U;
+} RTL_RELATIVE_NAME_U, *PRTL_RELATIVE_NAME_U;
 
 //
 // ref: https://github.com/mirror/reactos/blob/master/rostests/apitests/ntdll/RtlDosPathNameToNtPathName_U.c#L77
